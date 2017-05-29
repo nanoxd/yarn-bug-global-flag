@@ -1,0 +1,38 @@
+{
+  "name": "alfred-yarn-global-flag",
+  "version": "0.0.0",
+  "description": "Sample project to display error",
+  "license": "MIT",
+  "repository": "nanoxd/alfred-yarn-global-flag",
+  "author": {
+    "name": "Fernando Paredes",
+    "email": "nano@fdp.io",
+    "url": "fdp.io"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "test": "xo && ava",
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "files": [
+    "index.js",
+    "icon.png",
+    "info.plist"
+  ],
+  "keywords": [
+    "alfred",
+    "workflow",
+    "alfy"
+  ],
+  "dependencies": {
+    "alfy": "^0.6.0"
+  },
+  "devDependencies": {
+    "alfy-test": "^0.3.0",
+    "ava": "^0.18.0",
+    "xo": "^0.17.0"
+  }
+}
